@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miymayster.engage.MainActivity"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/engage"
+        android:scaleType="centerCrop"
+
+        />
+    <TextView
+        android:id="@+id/captain_picard_says"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/captain_picard_says"
+        android:background="#7000324D"
+        android:textColor="#D71A21"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/engage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/engage"
+
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00324D"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:background="#90A5C4C8"
+        />
+
+
+
+
+</RelativeLayout>
